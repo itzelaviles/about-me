@@ -73,10 +73,13 @@ a {
 
 .card-image{
   width: 100%; /* 100% of his container */
-  margin-bottom: 30px;
+  height: 40%;
+  object-fit: cover;
+  margin-bottom: 25px;
 } 
 
 .card-title {
+  font-family: "Permanent Marker", cursive;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -84,6 +87,8 @@ a {
 
 .card-text {
   font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .footer {
