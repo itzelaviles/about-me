@@ -33,10 +33,19 @@ a {
 .header {
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1649933248435-1debbfac39b2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .header-title {
   color: white;
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  text-transform: uppercase;
+  max-width: 1240px;
+  margin: auto;
 }
 
 .overlay {
@@ -50,10 +59,32 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* agrega aquí las reglas restantes */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
-/* agregar reglas CSS para tarjetas/cards y su contenido aquí */
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background-color: white;
+  box-shadow: 4px 4px 5px rgba(255, 77, 148, 0.4);
+}
+
+.card-image{
+  width: 100%; /* 100% of his container */
+  margin-bottom: 30px;
+} 
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+}
 
 .footer {
   display: flex;
